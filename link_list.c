@@ -130,7 +130,7 @@ void deleteLocation()
     }
 }
 
-void main()
+int main()
 {
     int choice;
     printf("///Linked-List Program///");

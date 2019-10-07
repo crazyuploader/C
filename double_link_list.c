@@ -104,7 +104,7 @@ void display()
     }
 }
 
-void main()
+int main()
 {
     int choice;
     printf("///Program for Double Linked-List///");
