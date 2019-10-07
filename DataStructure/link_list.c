@@ -69,7 +69,7 @@ void viewNode()
         t=START;
         while(t!=NULL)
         {
-        printf("\nNode Address is = %d and its value is = %d",t,t->data);
+        printf("\nValue of Node at Address: %d is = %d",t,t->data);
         t=t->link;
         }
     }
