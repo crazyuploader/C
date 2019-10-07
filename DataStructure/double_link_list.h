@@ -104,7 +104,7 @@ void display()
     }
 }
 
-int main()
+int double_link_list()
 {
     int choice;
     printf("///Program for Double Linked-List///");
@@ -130,9 +130,6 @@ int main()
             case 4:  display();
                      break;
             default: printf("Exiting...\n\n");
-                     printf("\t =================================\n");
-                     printf("\t||Created by Jugal Kishore -- 2019||\n");
-                     printf("\t =================================\n");
                      exit(0);
                      break;
         }
