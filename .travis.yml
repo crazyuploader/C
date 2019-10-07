@@ -1,3 +1,5 @@
 language: c
 compiler: g++
-script: for f in $(ls *.c); do echo "Compiling $f"; g++ $f; done
+script:
+- for f in $(ls *.c); do echo "Compiling $f"; g++ $f; done
+- for f in $(ls DataStructure/*.c); do echo "Compiling $f"; g++ $f; done
