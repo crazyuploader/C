@@ -1,35 +1,35 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-struct node
+struct Node
 {
     int data;
-    struct node* link;
+    struct Node* link;
 };
 
-struct node *START=NULL;
-struct node* createnode()
+struct Node *root=NULL;
+struct Node* createNode()
 {
-    struct node *n;
-    n=(struct node*)malloc(sizeof(struct node));
+    struct Node *n;
+    n=(struct Node*)malloc(sizeof(struct Node));
     return n;
 }
 
 void insertNode()
 {
-    struct node *temp, *t;
-    temp=createnode();
+    struct Node *temp, *t;
+    temp=createNode();
     printf("Enter a value: ");
     scanf("%d",&temp->data);
     temp->link=NULL;
-    if(START==NULL)
+    if(root==NULL)
     {
-        START=temp;
+        root=temp;
         printf("Node is created at Address = %d and its value is = %d",temp,temp->data);
     }
     else
     {
-        t=START;
+        t=root;
         while(t->link!=NULL)
         {
         t=t->link;
@@ -41,14 +41,14 @@ void insertNode()
 
 void deleteNode()
 {
-    struct node *r;
-    if(START==NULL)
+    struct Node *r;
+    if(root==NULL)
     {
         printf("Linked-List is empty!");
     }
     else
     {
-        r=START;
+        r=root;
         while(r!=NULL)
         {
             printf("Node Address is = %d and its value is =",r,*r);
@@ -59,14 +59,14 @@ void deleteNode()
 
 void viewNode()
 {
-    struct node *t;
-    if(START==NULL)
+    struct Node *t;
+    if(root==NULL)
     {
         printf("Linked-List is empty!");
     }
     else
     {
-        t=START;
+        t=root;
         while(t!=NULL)
         {
         printf("\nValue of Node at Address: %d is = %d",t,t->data);
@@ -77,16 +77,16 @@ void viewNode()
 
 int length()
 {
-    struct node *t;
+    struct Node *t;
     int len=0;
-    if(START==NULL)
+    if(root==NULL)
     {
         printf("Linked-List is empty!");
         return 0;
     }
     else
     {
-        t=START;
+        t=root;
         while(t!=NULL)
         {
         t=t->link;
@@ -98,7 +98,7 @@ int length()
 
 void deleteLocation()
 {
-    struct node *t, *p, *q;
+    struct Node *t, *p, *q;
     int loc,i=1;
     printf("Enter location you want to delete node at: ");
     scanf("%d",&loc);
@@ -110,13 +110,13 @@ void deleteLocation()
     {
         if(loc==1)
         {
-            t=START;
-            START=t->link;
+            t=root;
+            root=t->link;
             t->link=NULL;
         }
         else
         {
-            p=START;
+            p=root;
             while(i<loc-1)
             {
                 p=p->link;
@@ -130,7 +130,7 @@ void deleteLocation()
     }
 }
 
-int main()
+int link_list()
 {
     int choice;
     printf("///Linked-List Program///");
