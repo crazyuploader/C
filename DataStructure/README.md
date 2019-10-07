@@ -1,4 +1,4 @@
-Just my Data Structure Programs using C
+Just a collection of my Data Structure Programs using C
 ---
 
 [![Build Status](https://travis-ci.org/crazyuploader/C.svg?branch=master)](https://travis-ci.org/crazyuploader/C)
