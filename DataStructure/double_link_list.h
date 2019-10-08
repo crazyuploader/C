@@ -107,7 +107,12 @@ void display()
 int double_link_list()
 {
     int choice;
-    printf("///Program for Double Linked-List///");
+    printf("///Program for Double Linked-List///\n\n\n");
+    printf("        ---------------------------------           ---------------------------------\n");
+    printf("        |       |               |       |        \\\\\\|       |               |       |\n");
+    printf("        |  PREV |     DATA      |  NEXT |-----------|  PREV |     DATA      |  NEXT |\n");
+    printf("        |       |               |       |        ///|       |               |       |\n");
+    printf("        ---------------------------------           ---------------------------------\n");
     while(1)
     {
         printf("\n\nChoose an option from the following list\n");

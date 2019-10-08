@@ -133,7 +133,12 @@ void deleteLocation()
 int link_list()
 {
     int choice;
-    printf("///Linked-List Program///");
+    printf("///Linked-List Program///\n\n\n");
+    printf("    ------------------------------              ------------------------------\n");
+    printf("    |              |             |            \\ |              |             |\n");
+    printf("    |     DATA     |     NEXT    |--------------|     DATA     |     NEXT    |\n");
+    printf("    |              |             |            / |              |             |\n");
+    printf("    ------------------------------              ------------------------------\n");
     while(1)
     {
         printf("\n\n 1: Insert a Node");
