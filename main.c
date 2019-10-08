@@ -2,15 +2,7 @@
 #include<stdlib.h>
 #include"DataStructure/link_list.h"
 #include"DataStructure/double_link_list.h"
-
-int footer()
-{
-    printf("\n");
-    printf("\t =================================\n");
-    printf("\t||Created by Jugal Kishore -- 2019||\n");
-    printf("\t =================================\n");
-    return 0;
-}
+#include"footer.h"
 
 int main()
 {
