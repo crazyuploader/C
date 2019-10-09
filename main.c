@@ -3,6 +3,7 @@
 #include"DataStructure/link_list.h"
 #include"DataStructure/double_link_list.h"
 #include"footer.h"
+#include"array.h"
 
 int main()
 {
@@ -22,6 +23,8 @@ int main()
             case 1:  link_list();
                      break;
             case 2:  double_link_list();
+                     break;
+            case 3:  array();
                      break;
             default: printf("Exiting...\n");
                      footer();
