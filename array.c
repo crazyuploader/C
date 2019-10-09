@@ -3,7 +3,8 @@
 
 int main()
 {
-    int array[10],i,j;
+    int array[10],i;
+    printf("///Program for Array///\n\n\n");
     printf("Enter 10 Number(s) in Array: \n");
     for(i=0;i<10;i++)
     {
@@ -15,10 +16,10 @@ int main()
         printf(" %d",array[i]);
     }
     printf("\n\nEnter the position you want to enter a Number at: ");
-    scanf("%d",&j);
-    printf("\nEnter new value at position %d: ",j);
-    scanf("%d",&array[j-1]);
-    printf("\nArray after Entering new value at %d is:",j);
+    scanf("%d",&i);
+    printf("\nEnter new value at position %d: ",i);
+    scanf("%d",&array[i-1]);
+    printf("\nArray after Entering new value at %d is:",i);
     for(i=0;i<10;i++)
     {
         printf(" %d",array[i]);
