@@ -62,17 +62,20 @@ int main()
         printf("2. Pop an element\n");
         printf("3. Display Stack\n");
         printf("Anything else to exit!\n");
-        printf("Your choice? ");
+        printf("\nYour choice? ");
         scanf("%d",&choice);
         switch(choice)
         {
-            case 1: push();
-                    break;
-            case 2: pop();
-                    break;
-            case 3: display();
-                    break;
+            case 1:  push();
+                     break;
+            case 2:  pop();
+                     break;
+            case 3:  display();
+                     break;
             default: printf("Exiting...\n");
+                     printf("\t =================================\n");
+                     printf("\t||Created by Jugal Kishore -- 2019||\n");
+                     printf("\t =================================\n");
                      exit(0);
         }
     }

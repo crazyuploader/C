@@ -3,8 +3,8 @@
 #include"DataStructure/link_list.h"
 #include"DataStructure/double_link_list.h"
 #include"footer.h"
-#include"array.h"
-#include"array_sort.h"
+#include"DataStructure/array.h"
+#include"DataStructure/array_sort.h"
 
 int main()
 {
