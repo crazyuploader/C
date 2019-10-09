@@ -51,7 +51,7 @@ void display()
     }
 }
 
-int main()
+int stack()
 {
     printf("///Stack Program///\n\n\n");
     int choice;
