@@ -34,7 +34,7 @@ void pop()
     }
 }
 
-void display()
+void Display()
 {
     int i;
     if(top==-1)
@@ -51,7 +51,7 @@ void display()
     }
 }
 
-int stack()
+int Stack()
 {
     printf("///Stack Program///\n\n\n");
     int choice;

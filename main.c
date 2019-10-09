@@ -25,7 +25,7 @@ int main()
         scanf("%d",&choice);
         switch(choice)
         {
-            case 1:  array();  
+            case 1:  array();
                      break;
             case 2:  array_sort();
                      break;
@@ -33,7 +33,7 @@ int main()
                      break;
             case 4:  double_link_list();
                      break;
-            case 5:  stack();
+            case 5:  Stack();
                      break;
             default: printf("Exiting...\n");
                      footer();
