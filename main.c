@@ -17,7 +17,7 @@ int main()
         printf("1. for Linked-List Program\n");
         printf("2. for Double Linked-List Program\n");
         printf("3. for Array Program\n");
-        printf("4. for Array Sort Program\n");
+        printf("4. for Array Sorting Program\n");
         printf("Anything else to exit!\n");
         printf("\nchoice: ");
         scanf("%d",&choice);
