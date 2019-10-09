@@ -3,21 +3,24 @@
 
 int main()
 {
-    int array[10],i,j,temp;
-    printf("Enter 10 Number(s) in Array: \n");
-    for(i=0;i<10;i++)
+    printf("///Program for Sorting Array///\n\n\n");
+    int array[10],i,j,n,temp;
+    printf("Enter the value of N: ");
+    scanf("%d",&n);
+    printf("Enter %d Number(s) in Array: \n",n);
+    for(i=0;i<n;i++)
     {
         scanf("%d",&array[i]);
     }
-    printf("\nEntered Number(s) in Array are:");
-    for(i=0;i<10;i++)
+    printf("\nEntered Array is:");
+    for(i=0;i<n;i++)
     {
         printf(" %d",array[i]);
     }
     //Sorting Entered Array now
-    for(i=0;i<10;i++)
+    for(i=0;i<n;i++)
     {
-        for(j=0;j<(10-i-1);j++)
+        for(j=0;j<(n-i-1);j++)
         {
             if(array[j]>array[j+1])
             {
@@ -27,8 +30,8 @@ int main()
             }
         }
     }
-    printf("\n\nArray after sorting is:");
-    for(i=0;i<10;i++)
+    printf("\nSorted Array is:");
+    for(i=0;i<n;i++)
     {
         printf(" %d",array[i]);
     }
