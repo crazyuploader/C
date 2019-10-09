@@ -15,6 +15,7 @@ int main()
         printf("Data Structure Programs -\n\n");
         printf("1. for Linked-List Program\n");
         printf("2. for Double Linked-List Program\n");
+        printf("3. for Array Program\n");
         printf("Anything else to exit!\n");
         printf("\nchoice: ");
         scanf("%d",&choice);
