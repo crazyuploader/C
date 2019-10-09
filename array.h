@@ -3,24 +3,26 @@
 
 int array()
 {
-    int array[10],i;
+    int array[30],i,n;
     printf("///Program for Array///\n\n\n");
-    printf("Enter 10 Number(s) in Array: \n");
-    for(i=0;i<10;i++)
+    printf("Enter the value of N: ");
+    scanf("%d",&n);
+    printf("Enter %d Number(s) in Array: \n",n);
+    for(i=0;i<n;i++)
     {
         scanf("%d",&array[i]);
     }
-    printf("\nEntered Number(s) in Array are:");
-    for(i=0;i<10;i++)
+    printf("\nEntered Array is:");
+    for(i=0;i<n;i++)
     {
         printf(" %d",array[i]);
     }
-    printf("\n\nEnter the position you want to enter a Number at: ");
+    printf("\nEnter the position you want to enter a Number at: ");
     scanf("%d",&i);
-    printf("\nEnter new value at position %d: ",i);
+    printf("Enter new value at position %d: ",i);
     scanf("%d",&array[i-1]);
-    printf("\nArray after Entering new value at %d is:",i);
-    for(i=0;i<10;i++)
+    printf("Array after Entering new value at %d is:",i);
+    for(i=0;i<n;i++)
     {
         printf(" %d",array[i]);
     }
