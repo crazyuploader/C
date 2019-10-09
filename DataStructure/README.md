@@ -14,3 +14,6 @@ Just a collection of my Data Structure Programs using C
 
 <b>double_link_list.h</b>
 * Double Linked-List program in C language.
+
+<b>stack.h</b>
+* Stack program in C language.
