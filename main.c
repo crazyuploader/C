@@ -4,6 +4,7 @@
 #include"DataStructure/double_link_list.h"
 #include"footer.h"
 #include"array.h"
+#include"array_sort.h"
 
 int main()
 {
@@ -16,6 +17,7 @@ int main()
         printf("1. for Linked-List Program\n");
         printf("2. for Double Linked-List Program\n");
         printf("3. for Array Program\n");
+        printf("4. for Array Sort Program\n");
         printf("Anything else to exit!\n");
         printf("\nchoice: ");
         scanf("%d",&choice);
@@ -26,6 +28,8 @@ int main()
             case 2:  double_link_list();
                      break;
             case 3:  array();
+                     break;
+            case 4:  array_sort();
                      break;
             default: printf("Exiting...\n");
                      footer();
