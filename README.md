@@ -11,3 +11,6 @@ Just a collection of my C Programs
 
 <b>array.h</b>
 * A simple Array program.
+
+<b>array_sort.h</b>
+* A simple Array Sorting program.
