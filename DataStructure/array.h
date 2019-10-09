@@ -26,6 +26,8 @@ int array()
     {
         printf(" %d",array[i]);
     }
-    printf("\n\nCreated by Jugal Kishore -- 2019\n");
+    printf("\t =================================\n");
+    printf("\t||Created by Jugal Kishore -- 2019||\n");
+    printf("\t =================================\n");
     return 0;
 }
