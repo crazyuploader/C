@@ -14,7 +14,7 @@ void push()
     }
     else
     {
-        printf("\nEnter the item to be pushed in Stack:");
+        printf("\nEnter the item to be pushed in Stack: ");
         scanf("%d",&item);
         top=top+1;
         stack[top]=item;
@@ -57,7 +57,7 @@ int main()
     int choice;
     while(1)
     {
-        printf("choices: \n\n");
+        printf("\nchoices: \n\n");
         printf("1. Push an element\n");
         printf("2. Pop an element\n");
         printf("3. Display Stack\n");
@@ -72,7 +72,7 @@ int main()
                      break;
             case 3:  display();
                      break;
-            default: printf("Exiting...\n");
+            default: printf("Exiting...\n\n");
                      printf("\t =================================\n");
                      printf("\t||Created by Jugal Kishore -- 2019||\n");
                      printf("\t =================================\n");
