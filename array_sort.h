@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int main()
+int array_sort()
 {
     printf("///Program for Sorting Array///\n\n\n");
     int array[10],i,j,n,temp;
