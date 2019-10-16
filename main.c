@@ -37,6 +37,7 @@ int main()
                      break;
             default: printf("Exiting...\n");
                      footer();
+                     name();
                      exit(0);
         }
     }
