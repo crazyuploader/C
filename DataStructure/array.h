@@ -7,9 +7,10 @@ int array()
     printf("///Program for Array///\n\n\n");
     printf("Enter the value of N: ");
     scanf("%d",&n);
-    printf("Enter %d Number(s) in Array: \n",n);
+    printf("Enter %d Number(s) in Array:\n",n);
     for(i=0;i<n;i++)
     {
+        printf("Enter %d position: ",i+1);
         scanf("%d",&array[i]);
     }
     printf("\nEntered Array is:");
@@ -26,6 +27,7 @@ int array()
     {
         printf(" %d",array[i]);
     }
+    printf("\n");
     printf("\t =================================\n");
     printf("\t||Created by Jugal Kishore -- 2019||\n");
     printf("\t =================================\n");
