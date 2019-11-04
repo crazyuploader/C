@@ -1,4 +1,5 @@
 language: c
-compiler: g++
+compiler: gcc
 script:
-- for f in $(ls *.c); do echo "Compiling $f"; g++ $f; done
+ - for f in $(ls *.c); do echo "Compiling $f"; gcc $f; done
+ - for f in $(ls Practical_File/*.c); do echo "Compiling $f"; gcc $f; done
