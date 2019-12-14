@@ -10,3 +10,6 @@ My Practical File for Data Structure using C which also can be run online [HERE]
 
 <b>[`second.c`](/Practical_File/second.c)</b>
 * **Stack** Program and its **Operations**.
+
+<b>[`third.c`](/Practical_File/third.c)</b>
+* **Linked-List** Program and its various **Operations**.
