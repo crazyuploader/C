@@ -70,7 +70,7 @@ int Stack()
                      break;
             case 2:  pop();
                      break;
-            case 3:  display();
+            case 3:  Display();
                      break;
             default: printf("Exiting...\n\n");
                      printf("\t =================================\n");
