@@ -51,7 +51,7 @@ void deleteNode()
         r=root;
         while(r!=NULL)
         {
-            printf("Node Address is = %d and its value is =",r,*r);
+            printf("Node Address is = %d and its value is = %d",r,*r);
             free(r);
         }
     }
