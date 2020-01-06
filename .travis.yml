@@ -1,7 +1,7 @@
-language: c
-compiler: gcc
+dist: bionic
+language: bash
 script:
- - for f in $(ls *.c); do echo "Compiling $f"; gcc $f; done
+ - bash build_all.sh
 branches:
  except:
  - Practical_File
