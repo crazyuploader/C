@@ -1,7 +1,14 @@
-echo Building C Files Now
-echo
-echo Compiling with GCC
-for f in $(ls *.c); do echo "Compiling $f with GCC"; gcc $f; done
-echo
-echo Compiling with Clang
-for f in $(ls *.c); do echo "Compiling $f with Clang"; clang $f; done
+echo ""
+echo "Compiling with GCC"
+echo ""
+for f in $(ls *.c); do echo "Compiling $f"; gcc $f; done
+echo ""
+echo "Build with GCC OK"
+echo ""
+echo ""
+echo "Compiling with Clang"
+echo ""
+for f in $(ls *.c); do echo "Compiling $f"; clang $f; done
+echo ""
+echo "Build with Clang OK"
+echo ""
