@@ -1,7 +1,7 @@
 Just a collection of my Data Structure Programs using C
 ---
 
-[![Build Status](https://travis-ci.org/crazyuploader/C.svg?branch=master)](https://travis-ci.org/crazyuploader/C)
+[![Build Status](https://travis-ci.org/crazyuploader/C.svg?branch=master)](https://travis-ci.org/crazyuploader/C) [![Build status](https://ci.appveyor.com/api/projects/status/h76fgqjc90oxt4x9?svg=true)](https://ci.appveyor.com/project/crazyuploader/c)
 
 <b>array.h</b>
 * A simple Array program.
