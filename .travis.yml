@@ -1,4 +1,4 @@
-dist: bionic
+dist: focal
 language: bash
 script:
   - bash build_all.sh
